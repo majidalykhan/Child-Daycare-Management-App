@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ChildProfileStaff">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/child_profile_edit_pic"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/blank_profile_pic"
+            android:layout_gravity="center"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Personal Details"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/et_childName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/et_childDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Date of Birth"
+            android:inputType="date"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Parent Contact"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/et_childParentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Parent Name"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/et_childParentNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:layout_marginLeft="10dp"
+            android:inputType="phone"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Health Details"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/et_childMeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Medication"
+            android:inputType="text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/et_childAllergy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Allergies"
+            android:inputType="text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/et_childNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Notes"
+            android:inputType="text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "70325421543",
+    "firebase_url": "https://daycare-management-app.firebaseio.com",
+    "project_id": "daycare-management-app",
+    "storage_bucket": "daycare-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70325421543:android:3632de0c0563bdcabde942",
+        "android_client_info": {
+          "package_name": "com.example.daycaremanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70325421543-3lpfhoqk0uat6rjbv7vj2a7tdh05oh7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqsj39fyBSwc4g82gKjOc8oHEaJwW_Um8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70325421543-3lpfhoqk0uat6rjbv7vj2a7tdh05oh7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
